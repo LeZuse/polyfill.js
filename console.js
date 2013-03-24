@@ -1,5 +1,5 @@
-# Prevents errors in browsers where console is not available
-# and also in browsers where you have to open developer tools for console object to be present
+// Prevents errors in browsers where console is not available
+// and also in browsers where you have to open developer tools for console object to be populated
 if ( typeof console === 'undefined' )
 {
 	window.console = {};
